@@ -2,7 +2,7 @@ Steps to using this template to create a new project
 
 1. Navigate to root folder - cd /home/gerrypidgeondev
 2. Clone the BlankProject repository. This will create a new directory called <new-repository-name> -
-   git clone https://github.com/yourusername/BlankProject.git <new-repository-name>
+   git clone https://github.com/gerry-pidgeon-dev/BlankProject.git <new-repository-name>
 3. Navigate to <new-repository-name> - cd <new-repository-name>
 4. Remove Git History to Start Fresh - rm -rf .git
 5. Initialize a New Git Repository - git init
