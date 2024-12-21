@@ -18,18 +18,20 @@ Steps to Using This Template to Create a New Project
 6. Add a new remote repository:
    git remote add origin https://github.com/gerry-pidgeon-dev/<new-project-name>.git
 
-7. Clear the README.md file:
-   > README.md
-   (Or use: truncate -s 0 README.md)
+7. Add a new repository on GitHub:
+   gh repo create <new-project-name> --public
 
-8. Add files to the staging area:
+8. Clear the README.md file:
+   > README.md (Or use: truncate -s 0 README.md)
+
+9. Add files to the staging area:
    git add .
 
-9. Commit the staged changes:
+10. Commit the staged changes:
    git commit -m "first commit"
 
-10. Rename the current branch to main:
+11. Rename the current branch to main:
     git branch -M main
 
-11. Push the project to GitHub:
+12. Push the project to GitHub:
     git push -u origin main
